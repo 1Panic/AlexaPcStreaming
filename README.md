@@ -22,6 +22,7 @@ Call Alexa to open that stream.
 - Install StreamWhatYouHear/SWYH on your PC (http://www.streamwhatyouhear.com/download/) and replay with the Modded version (https://github.com/1Panic/SWYH/releases/)
 - Set the Listning Port from SWYH to 80, optional activate run at logon, restart SWYH!
 ![SWYH Config](https://github.com/1Panic/AlexaPcStreaming/raw/main/img/SWYHConfig.png?raw=true)
+
 - Pay audio(Spotify, Twitch, Youtube, Winamp ...) with high volume (SWYH capture your default output device)
 - Open your stream on a other device (PC, Handy, Tablet, etc.) http://<PC IP>/teststream.mp3 (e.g. http://192.168.0.50/stream.mp3)
 (The modded Version of SWYH accepts any url, so if you redirect a domain to you PC, Alexa always get a working stream regardless of the original destination)  
@@ -40,6 +41,7 @@ Call Alexa to open that stream.
 **3. Redirect DNS**
 - On your router add a custom DNS resolution to your PC that runs SWYH.
 ![Router Config](https://github.com/1Panic/AlexaPcStreaming/raw/main/img/RouterConfig.png?raw=true)
+
 - Check your router manual if you don't know how.
 
 **4. Alexa play HarmonyFM**
@@ -67,6 +69,8 @@ for nginx on Synology:
 
 - Add the PHP Script (URL) to your Server
 - Run the update.php from the streaming PC and update the ip. (http://<webserverIP>/update.php
+![Update ip](https://github.com/1Panic/AlexaPcStreaming/raw/main/img/update.php.png?raw=true)
+
 - Update the IP for the DNS redirect on your Router to your HTTP Server
 - Test it, (don't forget to clear the DNS cache!)
 In our example, open http://streams.harmonyfm.de/harmonyfm/aac/playerid:RTFFHTunein/hqlivestream.aac on any device in your LAN/WLAN 
