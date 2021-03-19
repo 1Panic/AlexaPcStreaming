@@ -83,6 +83,6 @@ bitcoin:bc1q70dnwxa7yh7wmq83wasqn2utpkxfxhd6znpxgc
 
 ![BTC](https://github.com/1Panic/AlexaPcStreaming/raw/main/img/qrcodeBC.png?raw=true)
 
-#Credits
+# Credits
 **Big THX to Sébastien Warin (https://github.com/sebastienwarin) for StreamWhatYouHear/SWYH https://github.com/StreamWhatYouHear/SWYH**
 
