@@ -52,7 +52,7 @@ Enjoy!
 
 # Optional add an HTTP Server to easy switch between your streaming PC's
 - You need a HTTP Server 
-(I use nginx on my Snology NAS, you need to free port 80 for it: http://tonylawrence.com/posts/unix/synology/freeing-port-80/ )
+(I use nginx on my Snology NAS, you need to free port 80 for it: http://tonylawrence.com/posts/unix/synology/freeing-port-80/)
 - Config your HTTP Server that every request that normally get a 404 gets now handled by the index.php
 for nginx on Synology:
 ```
@@ -68,7 +68,7 @@ for nginx on Synology:
 ```
 
 - Add the PHP Script (URL) to your Server
-- Run the update.php from the streaming PC and update the ip. (http://<webserverIP>/update.php)
+- Run the update.php from the streaming PC and update the ip. http://<webserverIP>/update.php
 ![Update ip](https://github.com/1Panic/AlexaPcStreaming/raw/main/img/update.php.png?raw=true)
 
 - Update the IP for the DNS redirect on your Router to your HTTP Server
