@@ -55,7 +55,7 @@ opml.radiotime.com/Tune.ashx?id=e9311784&sid=s846&formats=aac,mp3,hls&partnerId=
 Enjoy!
 
 
-# Optional add an HTTP Server to easy switch between your streaming PC's
+# Optional add an HTTP Server to easily switch between your streaming PC's
 - You need a HTTP Server 
 (I use nginx on my Snology NAS, you need to free port 80 for it: http://tonylawrence.com/posts/unix/synology/freeing-port-80/)
 - Config your HTTP Server that every request that normally get a 404 gets now handled by the index.php
