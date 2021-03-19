@@ -8,14 +8,14 @@ Its easy!
 
 
 ## Requirements  
-1. Router that supports **LAN DNS Resolution / Conditional DNS Forwarding** (for example DrayTek Vigor Series, a Linux router, etc.)
-2. PC that is running a Modded version of StreamWhatYouHear (https://github.com/1Panic/SWYH/releases/)
-3. TuneIn Domain that you can redirect to your PC (e.g. streams.harmonyfm.de)
-4. Amazon Echo device
+- Router that supports **LAN DNS Resolution / Conditional DNS Forwarding** (for example DrayTek Vigor Series, a Linux router, etc.)
+- PC that is running a Modded version of StreamWhatYouHear (https://github.com/1Panic/SWYH/releases/)
+- TuneIn Domain that you can redirect to your PC (e.g. streams.harmonyfm.de)
+- Amazon Echo device
 
 ### (Optional) If You like to switch the PC that streams to Alexa, you can add a http Server in your LAN that redirect any requests to your active pc:
-5. HTTP Webserver in your LAN (i use my Synology Nas)
-6. A small php script to redirect the http request
+- HTTP Webserver in your LAN (i use my Synology Nas)
+- A small php script to redirect the http request
 
 
 ## Let's get it started
