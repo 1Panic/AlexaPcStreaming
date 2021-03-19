@@ -68,7 +68,7 @@ for nginx on Synology:
 ```
 
 - Add the PHP Script (URL) to your Server
-- Run the update.php from the streaming PC and update the ip. (http://<webserverIP>/update.php
+- Run the update.php from the streaming PC and update the ip. (http://<webserverIP>/update.php)
 ![Update ip](https://github.com/1Panic/AlexaPcStreaming/raw/main/img/update.php.png?raw=true)
 
 - Update the IP for the DNS redirect on your Router to your HTTP Server
