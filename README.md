@@ -1,5 +1,5 @@
 # PC to Amazon Alexa streaming
-Send your PC Audio to Amazon Alexa with Multiroom support!
+Send your PC Audio to Amazon Alexa **with Multiroom support!**
 
 ## How it works?
 Its easy!
@@ -30,11 +30,14 @@ Its easy!
 - If you hear your audio, your done on the PC side.
 
 **2. Find a Domain**
-- You need to capture the communication between your alexa and TuneIn to get a DNS request that you can redirect.
+- You need to capture the communication between your Alexa and TuneIn to get a DNS request that you can redirect.
 - I use WireShark (https://www.wireshark.org/#download) to capture the trafic from my Linux router.
 - Get the MAC adress from your Alexa (you can find it in the Info Tab on your Alexa APP at your Device list) so its easier to filter the traffic (Wireshark filter: eth.addr == xx:xx:xx:xx:xx:xx)
 - Say to your alexa it shouldt play a TuneIn stream (or via Alexa APP) **that you normaly not use** and search for the request in Wireshark.
-- Search for an HTTP request to **opml.radiotime.com** like: opml.radiotime.com/Tune.ashx?id=e9311784&sid=s846&formats=aac,mp3,hls&partnerId=!EALLOjB&serial=G2PK3SH77AXEXQFTOW7YA
+- Search for an HTTP request to **opml.radiotime.com** like:
+```
+opml.radiotime.com/Tune.ashx?id=e9311784&sid=s846&formats=aac,mp3,hls&partnerId=!EALLOjB&serial=G2PK3SH77AXEXQFTOW7YA
+```
 - Open that in you browser and look in the Tune.m3u file.
 - Now you see the url to the original stream that Alexa would play (e.g. http://streams.harmonyfm.de/harmonyfm/aac/playerid:RTFFHTunein/hqlivestream.aac).
 - In this example we need to redirect the domain **streams.harmonyfm.de** to your streaming PC.
