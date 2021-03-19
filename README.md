@@ -2,8 +2,9 @@
 Send your PC Audio to Amazon Alexa with Multiroom support!
 
 ## How it works?
-Its easy, redirect a TuneIn stream to your local PC with a Modded StreamWhatYouHear (https://github.com/StreamWhatYouHear/SWYH) instance. 
-Call Alexa to open that stream.
+Its easy!
+1. redirect a TuneIn stream to your local PC with a Modded StreamWhatYouHear (https://github.com/StreamWhatYouHear/SWYH) instance.
+2. Call Alexa to open that stream. Enjoy!
 
 
 ## Requirements  
