@@ -1,2 +1,2 @@
 # AlexaPcStreaming
-Send you PC Audio to your Alexa with Multiroom support!
+Send your PC Audio to Amazon Alexa with Multiroom support!
