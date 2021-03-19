@@ -84,7 +84,7 @@ and you should hear the audio from your PC.
 
 # If you like it, buy me a coffee
 - https://www.paypal.com/paypalme/ipanic
-- bitcoin:bc1q70dnwxa7yh7wmq83wasqn2utpkxfxhd6znpxgc?message=coffee
+- [![Bitcoin Donate Button](https://github.com/1Panic/AlexaPcStreaming/raw/main/donate/Bitcoin-Donate-button.png?raw=true)](https://github.com/1Panic/AlexaPcStreaming/raw/main/donate/Bitcoin-HTML-Redirect.html?raw=true)
 
 ![BTC](https://github.com/1Panic/AlexaPcStreaming/raw/main/img/qrcodeBC.png?raw=true)
 
