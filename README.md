@@ -25,7 +25,7 @@ Its easy!
 ![SWYH Config](https://github.com/1Panic/AlexaPcStreaming/raw/main/img/SWYHConfig.png?raw=true)
 
 - Pay audio(Spotify, Twitch, Youtube, Winamp ...) with high volume (SWYH capture your default output device)
-- Open your stream on a other device (PC, Handy, Tablet, etc.) http://<PC IP>/teststream.mp3 (e.g. http://192.168.0.50/stream.mp3)
+- Open your stream on a other device (PC, Handy, Tablet, etc.) http://PC-IP/teststream.mp3 (e.g. http://192.168.0.50/stream.mp3)
 (The modded Version of SWYH accepts any url, so if you redirect a domain to you PC, Alexa always get a working stream regardless of the original destination)  
 - If you hear your audio, your done on the PC side.
 
