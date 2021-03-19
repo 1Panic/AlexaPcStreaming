@@ -11,7 +11,7 @@ Its easy!
 1. A Router that supports **LAN DNS Resolution / Conditional DNS Forwarding** (for example DrayTek Vigor Series, a Linux router, etc.)
 2. A PC that is running a Modded version of StreamWhatYouHear (https://github.com/1Panic/SWYH/releases/)
 3. Capture the tcp communication between your Alexa and your Internet to find a TuneIn DNS request that you can redirect to your PC (or use: streams.harmonyfm.de)
-4. Say "Alexa play HarmonyFM everywhere" and enjoy
+4. Say **"Alexa play HarmonyFM everywhere"** and enjoy
 
 ### (Optional) If You like to switch the PC that streams to Alexa, you can add a http Server in your LAN that redirect any requests to your active pc:
 5. A HTTP Webserver in your LAN (i use my Synology Nas)
