@@ -50,7 +50,7 @@ opml.radiotime.com/Tune.ashx?id=e9311784&sid=s846&formats=aac,mp3,hls&partnerId=
 
 **4. Alexa play HarmonyFM**
 - **Don't forget to restart (Powercycle) your Alexa to clear the dns cache!**
-- Say "Alexa play HarmonyFM everywhere"
+- Say ***"Alexa play HarmonyFM everywhere"***
 Enjoy!
 
 
