@@ -83,8 +83,8 @@ and you should hear the audio from your PC.
 
 
 # If you like it, buy me a coffee
-https://www.paypal.com/paypalme/ipanic
-bitcoin:bc1q70dnwxa7yh7wmq83wasqn2utpkxfxhd6znpxgc
+- https://www.paypal.com/paypalme/ipanic
+- bitcoin:bc1q70dnwxa7yh7wmq83wasqn2utpkxfxhd6znpxgc
 
 ![BTC](https://github.com/1Panic/AlexaPcStreaming/raw/main/img/qrcodeBC.png?raw=true)
 
