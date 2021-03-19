@@ -10,7 +10,7 @@ Its easy!
 ## Requirements  
 1. A Router that supports LAN DNS Resolution / Conditional DNS Forwarding (for example DrayTek Vigor Series, a Linux router, etc.)
 2. A PC that is running a Modded version of StreamWhatYouHear (https://github.com/1Panic/SWYH/releases/)
-3. Capture the tcp communication between your Alexa and your Internet to find a TuneIn dns request that you can redirect to your PC (or use: streams.harmonyfm.de)
+3. Capture the tcp communication between your Alexa and your Internet to find a TuneIn DNS request that you can redirect to your PC (or use: streams.harmonyfm.de)
 4. Say "Alexa play HarmonyFM everywhere" and enjoy
 
 ### (Optional) If You like to switch the PC that streams to Alexa, you can add a http Server in your LAN that redirect any requests to your active pc:
@@ -18,9 +18,9 @@ Its easy!
 6. A small php script to redirect the http request
 
 
-## Lets get starded
+## Let's get it started
 **1. Setup SWYH**
-- Install StreamWhatYouHear/SWYH on your PC (http://www.streamwhatyouhear.com/download/) and replay with the Modded version (https://github.com/1Panic/SWYH/releases/)
+- Install StreamWhatYouHear/SWYH on your PC (http://www.streamwhatyouhear.com/download/) and replace it with the Modded version (https://github.com/1Panic/SWYH/releases/)
 - Set the Listning Port from SWYH to 80, optional activate run at logon, restart SWYH!
 ![SWYH Config](https://github.com/1Panic/AlexaPcStreaming/raw/main/img/SWYHConfig.png?raw=true)
 
